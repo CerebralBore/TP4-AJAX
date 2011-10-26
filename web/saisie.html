@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Messages</title>
+        <link rel="stylesheet" href="saisie.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="ajax.js"></script>
+    </head>
+    <body onload="rechargerMessages();">
+        <div id="divMessages">
+        </div>
+        <div id="divFormulaire">
+            <p>Entrez votre message:</p>
+            <form action="" method="post" onsubmit="return envoieFormulaire();">
+                <input type="text" name="text" />
+                <input type="submit" value="Envoyer" />
+            </form>
+            <form action="./Deco.jsp" method="post">  
+                <input type="submit" value="Deconnexion" />
+            </form>
+        </div>
+    </body>
+</html>

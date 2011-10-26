@@ -1,0 +1,22 @@
+/* 
+    Document   : saisie
+    Created on : 21 oct. 2011, 14:50:32
+    Author     : romain
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+form {
+    display: block;
+    float: left;
+}
+
